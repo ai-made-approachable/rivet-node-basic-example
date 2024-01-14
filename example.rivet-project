@@ -1,0 +1,57 @@
+version: 4
+data:
+  attachedData:
+    trivet:
+      testSuites: []
+      version: 1
+  graphs:
+    Yh0ivriXbm14GnXtxmH7H:
+      metadata:
+        description: ""
+        id: Yh0ivriXbm14GnXtxmH7H
+        name: example-graph
+      nodes:
+        '[CPCkKZNwG_mWS3yvgJyBd]:graphOutput "Graph Output"':
+          data:
+            dataType: string
+            id: response
+          visualData: 888.5603718216386/-325.9271750041431/330/8/var(--node-color-4)/var(--grey-darkish)
+        '[L905CFf4htwHx25TIWCRU]:chat "Chat"':
+          data:
+            cache: false
+            enableFunctionUse: false
+            frequencyPenalty: 0
+            maxTokens: 1024
+            model: gpt-3.5-turbo
+            presencePenalty: 0
+            stop: ""
+            temperature: 0.5
+            top_p: 1
+            useAsGraphPartialOutput: true
+            useFrequencyPenaltyInput: false
+            useMaxTokensInput: false
+            useModelInput: false
+            usePresencePenaltyInput: false
+            useStop: false
+            useStopInput: false
+            useTemperatureInput: false
+            useTopP: false
+            useTopPInput: false
+            useUseTopPInput: false
+            useUserInput: false
+          outgoingConnections:
+            - response->"Graph Output" CPCkKZNwG_mWS3yvgJyBd/value
+          visualData: 520.5941116546967/-357.7895351064178/230/7//
+        '[j30SdmMq80ZFSuQxtAQgW]:graphInput "Graph Input"':
+          data:
+            dataType: string
+            id: prompt
+            useDefaultValueInput: false
+          outgoingConnections:
+            - data->"Chat" L905CFf4htwHx25TIWCRU/prompt
+          visualData: 37.79929913568161/-303.4136722647727/330/9/var(--node-color-3)/var(--grey-darkish)
+  metadata:
+    description: Example to run via rivet-node
+    id: vHpwmvjUYbE-MQJ7H_sV_
+    title: Example project
+  plugins: []
