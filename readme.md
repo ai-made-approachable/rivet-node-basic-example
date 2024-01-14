@@ -2,7 +2,7 @@
 This github project is a demo to help non-devs to get started executing their rivet graphs in node.js
 As the official docs require us to run a TypeScript application this might prove a considerable challenge to any non-developer. So this project includes everything you need to be able to run it immediately in Visual Studio Code with a few simple steps.
 
-## Software installation (prerquisites)
+## Software installation (prerequisites)
 1. Install **Visual Studio Code**: https://code.visualstudio.com/download
 2. Install **node.js + node package manager**: https://nodejs.org/en/download/ 
  (in the install process, make sure you also install npm package manager!)
