@@ -18,6 +18,6 @@ let result = await runGraphInFile(project, {
 });
 // Return graph output of the run
 console.log(result.response.value);
-// Force the application to exit
+// Force the application to exit (otherwise it keeps running as debugger still runs and does not have a close function)
 process.exit();
 //# sourceMappingURL=rivet.js.map

@@ -16,6 +16,7 @@ As the official docs require us to run a TypeScript application this might prove
 1. Go to /.vscode/ folder
 2. Rename "launch_sample.json" to "launch.json"
 3. Open "launch.json" and replace the value for OPEN_API_KEY with your OpenAI Key
+4. Open "Terminal -> New Terminal" and enter ```npm install```
 
 ## Running the project
 Just press "Run -> Start Debugging" in Visual Studio Code. Results can be seen in the "DEBUG CONSOLE"
