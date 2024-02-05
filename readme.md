@@ -28,3 +28,12 @@ Just press "Run -> Start Debugging" in Visual Studio Code. Results can be seen i
 - Edit "rivet.ts" in /src" folder and update "project" and "graph" variables
 - Change inputs (can also be left empty = ```"inputs": {}```)
 - Adjust output "result.response.value" accordingly to your graph outputs (if you have any)
+
+## Using plugins
+If you want to use plugins, you need to import and register them first.
+
+Example for mongoDB Plugin
+```import rivetMongoDbPlugin from 'rivet-plugin-mongodb';
+import * as Rivet from '@ironclad/rivet-node';
+Rivet.globalRivetNodeRegistry.registerPlugin(rivetMongoDbPlugin(Rivet));```
+
