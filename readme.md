@@ -33,7 +33,9 @@ Just press "Run -> Start Debugging" in Visual Studio Code. Results can be seen i
 If you want to use plugins, you need to import and register them first.
 
 Example for mongoDB Plugin
-```import rivetMongoDbPlugin from 'rivet-plugin-mongodb';
+```
+import rivetMongoDbPlugin from 'rivet-plugin-mongodb';
 import * as Rivet from '@ironclad/rivet-node';
-Rivet.globalRivetNodeRegistry.registerPlugin(rivetMongoDbPlugin(Rivet));```
+Rivet.globalRivetNodeRegistry.registerPlugin(rivetMongoDbPlugin(Rivet));
+```
 
