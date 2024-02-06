@@ -42,6 +42,15 @@ data:
           outgoingConnections:
             - response->"Graph Output" CPCkKZNwG_mWS3yvgJyBd/value
           visualData: 520.5941116546967/-357.7895351064178/230/7//
+        '[TCWBsbVFG97B8vq920zEi]:createDataset "Create Dataset"':
+          visualData: 1000.7381585483406/-562.8215021420426/280/10//
+        '[ZUmfCXsw4Gs80cCup8Fnf]:text "Text"':
+          data:
+            text: test
+          outgoingConnections:
+            - output->"Create Dataset" TCWBsbVFG97B8vq920zEi/datasetId
+            - output->"Create Dataset" TCWBsbVFG97B8vq920zEi/datasetName
+          visualData: 536.0312221525015/-569.2165517254714/330/11//
         '[j30SdmMq80ZFSuQxtAQgW]:graphInput "Graph Input"':
           data:
             dataType: string
